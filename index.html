@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- viewport-fit=cover is required for the env(safe-area-inset-bottom)
+         padding in the round screen to work on notched iPhones. -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Say It Without Saying It</title>
+    <meta
+      name="description"
+      content="A pass-the-phone party word game. One word on screen — get your friends to guess it before the buzzer."
+    />
+
+    <!-- Add-to-homescreen: launches fullscreen with no browser chrome. -->
+    <meta name="theme-color" content="#150E28" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Say It" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
